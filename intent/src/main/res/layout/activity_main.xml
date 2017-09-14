@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.batch16.crs.intent.MainActivity">
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <Button
+        android:id="@+id/btn_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+
+
+    <Button
+        android:id="@+id/btnllamada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="230dp" />
+    <Button
+        android:id="@+id/btn_streetview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btn_escogerapp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="escoger app"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/ed_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btn_forResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="for Result"/>
+    <Button
+        android:id="@+id/btn_foto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tomar foto"/>
+
+</LinearLayout>

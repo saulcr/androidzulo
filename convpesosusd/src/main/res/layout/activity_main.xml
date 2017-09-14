@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.batch16.crs.convpesosusd.MainActivity">
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convertidor de Pesos a Usd y al reves!"/>
+
+    <EditText
+        android:id="@+id/ed_pesos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="valor en pesos" />
+    <EditText
+        android:id="@+id/ed_usd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="valor en usd"/>
+
+    <Button
+        android:id="@+id/btn_pesos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="a pesos"
+        />
+    <Button
+        android:id="@+id/btn_usd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="a usd"
+        />
+
+
+
+</LinearLayout>

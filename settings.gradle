@@ -1,0 +1,1 @@
+include ':app', ':layaout', ':calculadora', ':botones_toas', ':convpesosusd', ':intent', ':permisos'
